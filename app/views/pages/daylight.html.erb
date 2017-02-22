@@ -3,8 +3,11 @@
 
 <div id="daylight-app">
   <div class="row">
-    <div class="box col-md-3 col-md-offset-1">Morning</div>
-    <div class="box col-md-3 col-md-offset-1">Afternoon</div>
-    <div class="box col-md-3 col-md-offset-1">Evening</div>
+    <div class="box col-md-3 col-md-offset-1" onclick="daylight('morning')">Morning</div>
+    <div class="box col-md-3 col-md-offset-1" onclick="daylight('afternoon')">Afternoon</div>
+    <div class="box col-md-3 col-md-offset-1" onclick="daylight('evening')">Evening</div>
+
+    <div id ="currentTime" class="box col-md-3 col-md-offset-1">Time of Day</div>
+
   </div>
 </div>
